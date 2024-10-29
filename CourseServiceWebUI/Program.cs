@@ -26,7 +26,7 @@ builder.Configuration.AddJsonFile("appsettings.json", optional: true, reloadOnCh
 builder.Configuration.AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json", optional: true, reloadOnChange: true);
 
 
-builder.Services.AddScoped((s) => new SqlConnection(builder.Configuration.GetConnectionString("MSSQLConnection")));
+builder.Services.AddScoped((s) => new SqlConnection(builder.Configuration.GetConnectionString("MSSQLConnectionCourse")));
 
 
 builder.Services.AddScoped<IDbTransaction>(s =>
