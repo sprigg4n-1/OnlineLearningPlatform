@@ -1,0 +1,6 @@
+@OrderServiceWebUI_HostAddress = http://localhost:5213
+
+GET {{OrderServiceWebUI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
