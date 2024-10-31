@@ -1,3 +1,6 @@
+using OrderBLL.Configuration;
+using OrderBLL.Interfaces;
+using OrderBLL.Services;
 using OrderDAL;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +13,10 @@ builder.Services.AddOrderServices(builder.Configuration);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddAutoMapper(typeof(AutoMapperProfile).Assembly);
+
+builder.Services.AddScoped<IOrderService, OrderService>();
 
 var app = builder.Build();
 

@@ -11,6 +11,6 @@ namespace OrderDAL.Interfaces
     {
         IOrderRepository OrderRepository { get; }
         IPaymentsRepository PaymentsRepository { get; }
-        Task SaveChangsAsync();
+        Task SaveChangesAsync();
     }
 }

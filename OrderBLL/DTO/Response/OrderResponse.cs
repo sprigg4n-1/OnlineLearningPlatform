@@ -1,12 +1,13 @@
-﻿using System;
+﻿using OrderDAL.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OrderDAL.Entities
+namespace OrderBLL.DTO.Response
 {
-    public class OrderEntity
+    public class OrderResponse
     {
         public int Id { get; set; }
         public int UserId { get; set; }
@@ -14,6 +15,7 @@ namespace OrderDAL.Entities
         public DateTime OrderDate { get; set; } = DateTime.UtcNow;
         public decimal TotalPrice { get; set; }
         public string Status { get; set; }
-        public ICollection<PaymentEntity> Payments { get; set; } = new List<PaymentEntity>();
+        public decimal TotalPayments { get; set; }
+        public string PaymentMethod { get; set; }
     }
 }

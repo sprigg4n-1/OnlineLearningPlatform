@@ -9,5 +9,7 @@ namespace OrderDAL.Interfaces.Repositories
 {
     public interface IPaymentsRepository: IGenericRepositoryEF<PaymentEntity>
     {
+        Task<IEnumerable<PaymentEntity>> GetPaymentsByMethodAsync(string paymentMethod);
+        Task<IEnumerable<PaymentEntity>> GetPaymentsByUserIdAsync(int userId);
     }
 }

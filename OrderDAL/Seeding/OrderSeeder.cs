@@ -19,7 +19,6 @@ namespace OrderDAL.Seeding
                 Id = 1,
                 UserId = 101,
                 CourseId = 202,
-                OrderDate = DateTime.Now,
                 TotalPrice = 299.99m,
                 Status = "pending",
             },
@@ -28,7 +27,6 @@ namespace OrderDAL.Seeding
                 Id = 2,
                 UserId = 102,
                 CourseId = 203,
-                OrderDate = DateTime.Now,
                 TotalPrice = 199.99m,
                 Status = "completed",
             }

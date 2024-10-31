@@ -17,7 +17,6 @@ namespace OrderDAL.Seeding
             {
                 Id = 1,
                 OrderId = 2,
-                PaymentDate = DateTime.Now,
                 Amount = 199.99m,
                 PaymentMethod = "credit card",
                 Status = "completed",
