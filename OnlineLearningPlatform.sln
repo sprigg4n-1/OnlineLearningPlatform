@@ -17,21 +17,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestsServiceWebUI", "TestsS
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderService", "OrderService", "{1D06667A-14DA-435B-86AE-D76BD173DEAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderServiceWebUI", "OrderServiceWebUI\OrderServiceWebUI.csproj", "{AA8711FB-4C12-411F-B780-8563AD78F2E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderServiceWebUI", "OrderServiceWebUI\OrderServiceWebUI.csproj", "{AA8711FB-4C12-411F-B780-8563AD78F2E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{545E56CB-9079-4564-BEE5-D8F434C46A89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{545E56CB-9079-4564-BEE5-D8F434C46A89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{1F229660-0299-4529-BAEB-3F251C9B739C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{1F229660-0299-4529-BAEB-3F251C9B739C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{CB78B3F2-C5DE-40D2-9DE4-4D4F0A238E27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{CB78B3F2-C5DE-40D2-9DE4-4D4F0A238E27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistance", "Persistance\Persistance.csproj", "{0D5CCA56-4D3A-41C7-8998-696E9FB92E7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistance", "Persistance\Persistance.csproj", "{0D5CCA56-4D3A-41C7-8998-696E9FB92E7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseDAL", "CourseDAL\CourseDAL.csproj", "{AE784C27-3470-4D23-8F2F-515748B01C82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseDAL", "CourseDAL\CourseDAL.csproj", "{AE784C27-3470-4D23-8F2F-515748B01C82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderDAL", "OrderDAL\OrderDAL.csproj", "{DD5AC154-4E08-49A2-BA53-732F4186BEBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderDAL", "OrderDAL\OrderDAL.csproj", "{DD5AC154-4E08-49A2-BA53-732F4186BEBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderBLL", "OrderBLL\OrderBLL.csproj", "{90F0F44F-0C40-41D0-BA55-8F7F5CAE906F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderBLL", "OrderBLL\OrderBLL.csproj", "{90F0F44F-0C40-41D0-BA55-8F7F5CAE906F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
